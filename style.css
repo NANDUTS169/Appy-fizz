@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.header{
+    width: 100%;
+    height: 750px;
+    padding-bottom: 140px;
+} 
+.bg-pic{
+    width: 100%;
+    height: 750px;
+    padding-bottom: 140px;
+    background-image: url(pictures/0428281920-x-1080_Banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.navbar{
+    background-color: #100c24;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    margin-left: -30px;
+}
+
+.iconcolor{
+    color: #fff;
+}
+.logo{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 125px;
+    height: 20px;
+}
+.navbar ul{
+    align-items: center;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.navbar ul li a{
+    color: #fff;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+.tile2{
+    width: 100%;
+    height: 125vh;
+    margin: 0;
+    padding: 0;
+}
+.tile2-left{
+    float: left;
+    width: 50%;
+    height: 125vh;
+    background: #000;
+}
+.pic{
+    width: 600px;
+    height: 600px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+.tile2-right{
+    float: left;
+    width: 50%;
+    height: 125vh;    
+    background: white;
+}
+.txt{
+    font-weight: 400;
+    text-align: left;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    padding-top: 120px;
+    padding-left: 16%;
+    padding-right: 16%;
+}
+.links{
+    float: left;
+    margin-left: 120px;
+    padding-top: 30px;
+}
+.last-img{
+    width: 100%;
+    height: 100vh;
+}
+.footer{
+    display: flex;
+    padding: 50px;
+    margin: 0;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.left-foot{
+    width: 33.3333333333%;
+    text-align: left;
+    top: 50px;
+    left: 50px;
+}
+.mid-foot{
+    width: 33.3333333333%;
+    text-align: left;
+}
+.mid-foot a{
+    line-height: 25px;
+    font-weight: bolder;
+    color: #0a0b27;;
+    font-size: 13px;
+    text-decoration: none;
+}
+.right-foot{
+    width: 33.3333333333%;
+    float: left;
+    color: #0a0b27;
+    text-decoration: none;
+}
+.footer-links > :first-child {
+    margin-top: 0; 
+    margin-bottom: 0; 
+    margin-left: 0;  
+    margin-right: 0;
+}
+.footer-links i{
+    margin-top: 10px;
+    font-size: 30px;
+}
